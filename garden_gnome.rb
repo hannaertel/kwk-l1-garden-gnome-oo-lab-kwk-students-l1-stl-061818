@@ -7,11 +7,11 @@ class GardenGnome
   
   attr_writer :gnaw, :shout, :introduce_self
   
- def initialize(name, age, gluten_allergy, personality, hat_color = "red", gnaw = "Growing on a tree!", shout = "Gnarly", introduce_self = "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!" )
+ def initialize(name, age, gluten_allergy, personality = "evil", hat_color = "red", gnaw = "Growing on a tree!", shout = "Gnarly", introduce_self = "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!" )
    @name = name
    @age = age
    @gluten_allergy = gluten_allergy
-   @personality = "evil"
+   @personality = personality
    @hat_color = hat_color
    @gnaw = gnaw
    @shout = shout
