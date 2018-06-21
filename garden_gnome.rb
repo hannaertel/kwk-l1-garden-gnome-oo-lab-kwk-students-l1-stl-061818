@@ -20,7 +20,7 @@ class GardenGnome
  end
  
   gnome1 = GardenGnome.new("walter the worst", 4, "false", "blue")
-  gnome2 = GardenGnome.new("James the Jerk", 3421)
+  gnome2 = GardenGnome.new("James the Jerk", 3421. "true")
   gnome3 = GardenGnome.new("alfred the abhorrent", 579, "true")
   
   puts gnome3.gnaw
