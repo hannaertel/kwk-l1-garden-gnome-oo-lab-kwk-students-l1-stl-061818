@@ -3,7 +3,7 @@ class GardenGnome
   
   attr_accessor :name, :age, :gluten_allergy, :hat_color
   
-  attr_reader :personality, 
+  attr_reader :personality 
   
   attr_writer :gnaw, :shout, :introduce_self
   
