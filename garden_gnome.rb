@@ -16,7 +16,8 @@ class GardenGnome
    @gnaw = "Gnawing on a tree!"
    @shout = "GNARLY!"
    @introduce_self = "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!"
-   
+ end
+ end
   
   
   
