@@ -11,7 +11,7 @@ class GardenGnome
    @name = name
    @age = age
    @gluten_allergy = gluten_allergy
-   @personality = evil
+   @personality = "evil"
    @hat_color = hat_color
    @gnaw = gnaw
    @shout = shout
