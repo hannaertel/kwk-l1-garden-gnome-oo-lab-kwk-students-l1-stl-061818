@@ -1,6 +1,6 @@
 # Code your instances here
 class GardenGnome
- def 
+ def initialize
   
   
   
