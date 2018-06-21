@@ -7,7 +7,7 @@ class GardenGnome
   
   attr_writer :gnaw, :shout, :introduce_self
   
- def initialize(name, age, gluten_allergy, personality, hat_color = "red", gnaw, shout, introduce_self)
+ def initialize(name, age, gluten_allergy, personality, hat_color = "red", gnaw = "Growing on a tree!", shout, introduce_self)
    @name = name
    @age = age
    @gluten_allergy = gluten_allergy
