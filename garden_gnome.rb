@@ -21,6 +21,6 @@ class GardenGnome
   gnome2 = GardenGnome.new("James the Jerk", 3421, "true")
   gnome3 = GardenGnome.new("alfred the abhorrent", 579, "true")
   
-  puts gnome3.gnaw
+  puts gnome3.introduce_self
   
   
