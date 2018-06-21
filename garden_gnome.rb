@@ -19,6 +19,6 @@ class GardenGnome
  end
  end
  
-  
+  puts GardenGnome.gnaw
   
   
